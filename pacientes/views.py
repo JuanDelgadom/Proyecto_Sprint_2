@@ -11,3 +11,4 @@ def obtener_historiasClinicas(request):
 def obtener_historiaClinica(request, paciente_id):
     response = requests.get(f'http://localhost:8000/historia/{paciente_id}')
     return JsonResponse(response.json(), safe=False)
+
