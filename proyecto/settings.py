@@ -25,7 +25,7 @@ SECRET_KEY = '@x-9+1@%!%za36@#wm2z+ayu(m7e+ngxwvad=@9v^pg^m244n@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -80,8 +80,8 @@ DATABASES = {
         'NAME': 'project_db',
         'USER': 'admin_user',
         'PASSWORD': 'isis2503',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'HOST': '10.128.0.2',
+        'PORT': '',
     }
 }
 
